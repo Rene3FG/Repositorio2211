@@ -1,7 +1,7 @@
-Class PersonaTest.java{
-    public static void main(String args[]){
-        persona rene=new persona("rene",45);
-        persona dani=new persona("dani",21);
+class PersonaTest{
+    public static void main(String[] args){
+        Persona rene=new Persona("rene",45);
+        Persona dani=new Persona("dani",21);
 
         rene.showInfo();
         dani.showInfo();
